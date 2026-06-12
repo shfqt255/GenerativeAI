@@ -1,0 +1,91 @@
+## 1. BASIC INFORMATION
+- **Name/Username**: Shafqat Ullah (@shfqt25)
+- **Role/Title**: Flutter Developer, AI/ML Engineer, Mobile App Solutions
+- **Location**: Pakistan
+- **Languages**: English, Urdu
+- **Member Since**: (Not explicitly stated on the provided snippet, but the work experience dates suggest he has been active for at least a few years.)
+- **Response Time/Availability**: Average response time: 1 hour. (Indicated as "Offline" on the profile snippet, but response time is listed.)
+
+## 2. WHAT HE SELLS
+- **Primary Services/Gigs**:
+  - **Gig Title**: I will develop flutter mobile apps
+    - **Starting Price**: PKR 29,114 / project
+    - **Delivery Time**: (Not specified in snippet)
+    - **Brief Description**: Focuses on cross-platform development using Flutter.
+  - **Gig Title**: I will integrate firebase services in flutter app
+    - **Starting Price**: PKR 29,114 / project
+    - **Delivery Time**: (Not specified in snippet)
+    - **Brief Description**: Specializes in integrating Firebase services within Flutter applications. 
+  - **Show all (3)**: (Implies there is at least one more gig, but details are not provided.)
+
+## 3. PORTFOLIO & PROJECT EXPERIENCE
+- **Past Projects**:
+  - **Vision Us (Part-time, Feb 2026 - Present)**: AI/ML Engineer working on "VisionCare – Smart Daycare Ecosystem," a B2B SaaS platform. Contributions include AI-based activity detection & safety alerts, integration of Flutter app with AI models & IoT systems, and development of IoT-based real-time child monitoring.
+  - **App (Full-time, Dec 2025 - Present)**: Flutter Developer. Developed scalable cross-platform mobile applications. Built responsive UI, navigation systems, form handling, integrated REST APIs and Firebase (Auth, Firestore, FCM), implemented Provider state management, and developed Google Maps API-based location services (real-time tracking, custom markers, route navigation, geofencing). Also developed Flutter e-commerce applications with shopping cart, checkout, Stripe integration, order management, and product reviews.
+  - **Flutter Developer (Aug 2025 - Nov 2025)**: Developed Flutter-based mobile applications with real-world features, integrated Firebase (Authentication, Firestore, SharedPreferences), worked with REST APIs, implemented Provider state management, and improved UI performance and scalability.
+- **Industries Served**: SaaS, E-commerce, Daycare Management, Navigation Systems.
+- **Notable Clients**: None explicitly mentioned.
+- **Project Highlights**:
+  - Development of a B2B SaaS platform integrating AI, IoT, and mobile systems for daycare management. 
+  - Creation of scalable cross-platform Flutter mobile applications.
+  - Implementation of advanced features like real-time tracking, payment gateway integration (Stripe), 
+and AI-driven safety alerts.
+
+## 4. SKILLS & EXPERTISE
+- **Technical Skills**: Flutter, Dart, Firebase (Auth, Firestore, FCM), REST APIs, Google Maps API, Provider state management, Stripe payment integration, AI/ML, IoT integration.
+- **Tools & Technologies**: Flutter, Dart, Firebase, PostgreSQL, REST APIs, Google Maps API, Stripe, AI/ML models, IoT systems.
+- **Certifications**: None explicitly mentioned.
+
+## 5. EDUCATION & QUALIFICATIONS
+- **Education**: Not explicitly stated.
+- **Professional Certifications**: Not explicitly mentioned.
+- **Training/Courses**: Not explicitly mentioned.
+
+## 6. PERFORMANCE METRICS (if visible)
+- **Rating**: Not visible in the provided snippet.
+- **Number of Reviews**: Not visible in the provided snippet.
+- **Completed Orders**: Not visible in the provided snippet.
+- **Repeat Clients**: Not visible in the provided snippet.
+
+## 7. PROFILE ANALYSIS & RECOMMENDATION
+
+### Strengths:
+- **Strong Technical Skillset**: Shafqat demonstrates proficiency in Flutter, a popular cross-platform 
+development framework, and a solid understanding of related technologies like Firebase, REST APIs, and 
+Google Maps API.
+- **AI/ML Integration**: His dual expertise as a Flutter Developer and an AI/ML Engineer is a significant differentiator, allowing him to offer more complex and integrated solutions. The work on "VisionCare" highlights this capability.
+- **Real-World Project Experience**: The descriptions of his past projects showcase experience in developing practical, feature-rich applications like e-commerce platforms and management systems, which adds credibility.
+- **Clear Communication of Services**: His "About Me" section and gig titles clearly outline his core offerings.
+- **Responsive**: An average response time of 1 hour is excellent for client communication.
+
+### Weaknesses:
+- **Lack of Visible Performance Metrics**: Without visible ratings, number of reviews, or completed orders, it's difficult for potential clients to gauge his reliability and past performance on Fiverr. This is a major hurdle for new sellers or those with limited Fiverr history.
+- **Limited Gig Details**: The provided snippet only shows two gig titles and starting prices, with no 
+delivery times or detailed descriptions. This makes it hard to fully assess the scope of his services. 
+- **Missing Education/Certifications**: While experience is strong, the absence of formal education or 
+certifications might be a minor drawback for clients seeking highly specialized or credentialed professionals.
+- **"Offline" Status**: While response time is good, being marked as "Offline" might deter some clients who prefer immediate availability.
+
+### Recommendation:
+- ⭐ **Rating out of 5**: 4.0/5 (This is a provisional rating based on skills and experience, acknowledg
+ing the missing performance metrics.)
+- **Hire / Don't Hire** recommendation: **Hire** (with a caveat)
+- **Best suited for**:
+    - Clients seeking custom cross-platform mobile applications using Flutter.
+    - Projects that require integration of AI/ML capabilities with mobile apps.
+    - Startups and businesses looking for scalable e-commerce solutions or management systems.
+    - Projects requiring specific integrations like Firebase, REST APIs, or Google Maps.
+- **Not ideal for**:
+    - Clients who prioritize extensive Fiverr review history and established seller reputation.        
+    - Projects requiring native iOS/Android development expertise if Flutter is not sufficient.        
+    - Clients needing immediate, constant availability.
+- **Confidence level** in this recommendation: **Medium** (The lack of Fiverr performance metrics significantly impacts the confidence level.)
+
+### Tips for the Freelancer (Shafqat Ullah):
+
+1.  **Optimize Gig Descriptions and Delivery Times**: Flesh out all gig descriptions with clear deliverables, packages (if applicable), and realistic delivery times. This builds trust and manages client expectations.
+2.  **Actively Seek Reviews**: Encourage satisfied clients to leave reviews. High ratings and a good number of reviews are crucial for building credibility on Fiverr, especially for newer sellers.
+3.  **Showcase Portfolio More Effectively**: If possible, add more diverse examples to his portfolio section, detailing the challenges, solutions, and outcomes of each project. Video demonstrations or screenshots can be very effective.
+4.  **Consider Fiverr Pro Application**: Given his AI/ML and Flutter expertise, pursuing Fiverr Pro status could significantly 
+enhance his credibility and attract higher-value clients.
+5.  **Update Availability Status**: If possible, try to appear "Online" more frequently or clearly communicate his working hours and preferred contact times.
