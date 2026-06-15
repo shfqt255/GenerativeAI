@@ -1,0 +1,13 @@
+### Text Splitters and Chunks in RAG
+
+In Retrieval-Augmented Generation (RAG) systems, large documents cannot be sent directly to a language model because models have context window limitations. To solve this problem, documents are divided into smaller pieces called **chunks** using a process known as **text splitting**. The component responsible for performing this task is called a **text splitter**.
+
+A **chunk** is a smaller section of a document that contains a portion of the original content. Instead of storing and retrieving an entire document, the RAG system stores these chunks in a vector database. When a user asks a question, the system retrieves the most relevant chunks and provides them to the language model as context.
+
+A **text splitter** is a tool or algorithm that determines how a document should be divided into chunks. Different splitting strategies can be used depending on the type of data. For example, text may be split by characters, words, sentences, paragraphs, document headings, tokens, or semantic meaning. The goal is to create chunks that are small enough to fit within the model's context window while still preserving enough information to maintain meaning and context.
+
+Effective chunking is crucial for retrieval performance. If chunks are too small, important context may be lost. If chunks are too large, irrelevant information may be included, reducing retrieval accuracy. To address this issue, many systems use **chunk overlap**, where a portion of one chunk is repeated in the next chunk. This helps preserve continuity between chunks and improves the quality of retrieved information.
+
+Several types of text splitters are commonly used. **Character-based splitters** divide text after a fixed number of characters, while **Recursive Character Splitters** attempt to split text at natural boundaries such as paragraphs and sentences before resorting to character-level splitting. **Token-based splitters** create chunks according to the number of tokens used by a language model, ensuring compatibility with model context limits. More advanced approaches, such as **semantic chunking**, use embeddings to identify topic changes and create chunks based on meaning rather than size.
+
+In summary, chunks are the smaller pieces of information stored and retrieved in a RAG system, while text splitters are the mechanisms that create those chunks. Proper chunking improves retrieval accuracy, preserves context, and enables language models to generate more relevant and accurate responses.
