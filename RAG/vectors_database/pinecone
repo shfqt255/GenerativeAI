@@ -1,0 +1,56 @@
+from pinecone import Pinecone, ServerlessSpec
+
+from langchain_pinecone import PineconeVectorStore
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+# Pinecone Configuration
+PINECONE_API_KEY = "YOUR_PINECONE_API_KEY"
+INDEX_NAME = "pdf-index"
+
+
+# Load PDF
+loader = PyPDFLoader("notes/notes.pdf")
+docs = loader.load()
+
+
+# Split Documents
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size=500,
+    chunk_overlap=50
+)
+
+chunks = splitter.split_documents(docs)
+
+print(f"Total Chunks: {len(chunks)}")
+
+
+# Embedding Model
+embeddings = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
+)
+
+# Connect Pinecone
+pc = Pinecone(api_key=PINECONE_API_KEY)
+
+# Create index if it doesn't exist
+if INDEX_NAME not in pc.list_indexes().names():
+    pc.create_index(
+        name=INDEX_NAME,
+        dimension=384,  # MiniLM-L6-v2 output size
+        metric="cosine",
+        spec=ServerlessSpec(
+            cloud="aws",
+            region="us-east-1"
+        )
+    )
+
+# Store Documents
+vector_store = PineconeVectorStore.from_documents(
+    documents=chunks,
+    embedding=embeddings,
+    index_name=INDEX_NAME
+)
+
+print("Documents uploaded successfully!")
