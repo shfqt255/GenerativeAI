@@ -17,52 +17,52 @@ The code is intended for educational purposes and can be used as a reference whe
 ## Directory Structure
 ```
 GenAI/
-├─ Chatmodels/            # Gemini examples
+├─ Chatmodels/            
 │   ├─ gemeni.py
 │   └─ test.py
-├─ Localmodel/           # Local HuggingFace LLM inference
+├─ Localmodel/           
 │   └─ local_model.py
-├─ RAG/                  # Retrieval‑augmented generation components
+├─ RAG/                  
 │   ├─ load_pdf.py
 │   ├─ load_text.py
 │   ├─ load_webpage.py
-│   ├─ retrievers/        # Different retrieval strategies
+│   ├─ retrievers/        
 │   │   ├─ mmr_search.py
 │   │   ├─ multi_query.py
 │   │   └─ similarity_search.py
-│   └─ vectors_database/   # Vector store wrappers (FAISS, etc.)
+│   └─ vectors_database/   
 │       ├─ chroma_db.py
 │       ├─ fiass.py
 │       ├─ pinecone.py
 │       └─ qdrant.py
-├─ Runnables/            # Custom LangChain Runnable implementations
+├─ Runnables/            
 │   ├─ lambda.py
 │   ├─ parallel.py
 │   ├─ passthrough.py
 │   └─ sequence.py
-├─ Tools/                # Utility tools (e.g., DuckDuckGo search)
+├─ Tools/                
 │   └─ duckduckgo_search.py
-├─ embedding_models/      # Embedding generation scripts
+├─ embedding_models/      
 │   ├─ generated_embeddings.txt
 │   ├─ groq_embedding_model.py
 │   └─ history_computer.pdf
-├─ generated_databases/  # Empty folders for FAISS, Chroma, Qdrant, Pinecone
+├─ generated_databases/  
 │   ├─ faiss_db/
 │   ├─ chroma_db/
 │   ├─ qdrant_db/
 │   └─ pinecone/
-├─ chatbot/              # Simple CLI chatbot using Gemini
+├─ chatbot/              
 │   └─ chatbot.py
-├─ notes/                # Reference PDFs used by loaders
+├─ notes/                
 │   ├─ GenAIpart2.pdf
 │   ├─ chunks.txt
 │   └─ notes.pdf
 │    Tools/          
-│    duckduckgo_search.py  # added duckduckgo_search.py
+│    duckduckgo_search.py 
 
 
-├─ .env                  # Environment file (API keys)
-└─ requirements.txt      # Python dependencies
+├─ .env                  
+└─ requirements.txt      
 ```
 
 ## Setup
